@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 
-function Hello() {
+function Bye() {
     
     return (
         <>
@@ -12,7 +12,7 @@ function Hello() {
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
       >
-        hello
+        C ya
       </motion.div>
             </div>
         </>
@@ -20,4 +20,4 @@ function Hello() {
     );
 }
 
-export default Hello;
+export default Bye;

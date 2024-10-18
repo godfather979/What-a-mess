@@ -1,14 +1,35 @@
 import './App.css';
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Hello from './Hello';
+import Bye from './Bye';
+
 
 function App() {
+
+
+
   return (
     <>
-    <div classname = "App">
-    <Hello />
-    </div>
+    <BrowserRouter>
+      <RoutesWeb />
+    </BrowserRouter>
     </>
   );
 }
+
+const RoutesWeb = () => {
+  const location = useLocation(); // Get the current route
+
+  return (
+      <>
+      {/* {loading && <Loader />} */}
+      <Routes>
+        <Route path="/" element={<Hello />} />
+        <Route path="/bye" element={<Bye />} />
+      </Routes>
+      {/* {!isAdminRoute && <Footer />}       Conditionally render Footer */}
+      </>
+  );
+};
 
 export default App;
