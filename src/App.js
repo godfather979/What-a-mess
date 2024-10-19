@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import Hello from './Hello';
-import Bye from './Bye';
+import Hello from './components/Hello';
+import Bye from './components/Bye';
 
 
 function App() {
