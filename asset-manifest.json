@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.81d612cc.css",
-    "main.js": "/frontend/static/js/main.c9f62993.js",
+    "main.css": "/frontend/static/css/main.241f6c5e.css",
+    "main.js": "/frontend/static/js/main.690ce54d.js",
     "static/js/453.563ea4ce.chunk.js": "/frontend/static/js/453.563ea4ce.chunk.js",
     "static/media/sandwich.jpg": "/frontend/static/media/sandwich.18f83dabadb3633115d6.jpg",
     "static/media/Sacramento-Regular.ttf": "/frontend/static/media/Sacramento-Regular.5bd7d5208f7a9c18fe22.ttf",
@@ -10,12 +10,12 @@
     "static/media/slick.ttf": "/frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/frontend/index.html",
-    "main.81d612cc.css.map": "/frontend/static/css/main.81d612cc.css.map",
-    "main.c9f62993.js.map": "/frontend/static/js/main.c9f62993.js.map",
+    "main.241f6c5e.css.map": "/frontend/static/css/main.241f6c5e.css.map",
+    "main.690ce54d.js.map": "/frontend/static/js/main.690ce54d.js.map",
     "453.563ea4ce.chunk.js.map": "/frontend/static/js/453.563ea4ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81d612cc.css",
-    "static/js/main.c9f62993.js"
+    "static/css/main.241f6c5e.css",
+    "static/js/main.690ce54d.js"
   ]
 }
