@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/frontend/static/css/main.3d86e3bf.css",
+    "main.js": "/frontend/static/js/main.f4b416b6.js",
+    "static/js/453.563ea4ce.chunk.js": "/frontend/static/js/453.563ea4ce.chunk.js",
+    "static/media/Sacramento-Regular.ttf": "/frontend/static/media/Sacramento-Regular.5bd7d5208f7a9c18fe22.ttf",
+    "static/media/slick.svg": "/frontend/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/frontend/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/frontend/index.html",
+    "main.3d86e3bf.css.map": "/frontend/static/css/main.3d86e3bf.css.map",
+    "main.f4b416b6.js.map": "/frontend/static/js/main.f4b416b6.js.map",
+    "453.563ea4ce.chunk.js.map": "/frontend/static/js/453.563ea4ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d86e3bf.css",
+    "static/js/main.f4b416b6.js"
+  ]
+}
