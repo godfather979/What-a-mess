@@ -12,7 +12,7 @@ function Home() {
           <Link to="/user/shop">User</Link>
         </button>
         <button>
-          <Link to="/admin/stats">Admin</Link>
+          <Link to="/admin/track">Admin</Link>
         </button>
       </div>
     </div>

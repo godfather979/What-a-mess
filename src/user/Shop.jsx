@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import menuData from "../assets/food.json"; // Assuming your menu JSON is in the assets folder
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-
+import sw from "../images/sandwich.jpg"
 
 
 import { motion } from "framer-motion";
@@ -264,12 +264,12 @@ const Shop = () => {
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
     {filteredMenu.map((item) => (
       <div
-        key={item.name}
+        key={sw}
         className="bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl p-6 flex flex-col justify-between"
       >
         <div className="flex flex-col items-center">
           <img
-            src={item.image}
+            src={sw}
             alt={item.name}
             className="w-full h-48 object-cover rounded-lg mb-4"
           />

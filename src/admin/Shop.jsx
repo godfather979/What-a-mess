@@ -3,6 +3,7 @@ import menuData from "../assets/food.json"; // Assuming your menu JSON is in the
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import sw from "../images/sandwich.jpg"
 
 const Shop = () => {
   const navigate = useNavigate();
