@@ -1,0 +1,67 @@
+{
+  "menu": [
+    {
+      "name": "Paneer Butter Masala with Rice",
+      "description": "A student favorite! Soft paneer in creamy tomato gravy served with steamed rice.",
+      "cost": 120,
+      "preferences": ["V"],
+      "image": "/thali.jpg"
+    },
+    {
+      "name": "Egg Curry with Roti",
+      "description": "Boiled eggs cooked in spicy curry, served with soft rotis.",
+      "cost": 100,
+      "preferences": ["NV"],
+      "image": "/egg.jpg"
+    },
+    {
+      "name": "Masala Dosa",
+      "description": "Crispy dosa stuffed with spicy potato filling, served with chutney and sambar.",
+      "cost": 80,
+      "preferences": ["J"],
+      "image": "/sandwich.jpg"
+    },
+    {
+      "name": "Veg Pulao",
+      "description": "Aromatic rice cooked with fresh vegetables and mild spices, served with raita.",
+      "cost": 90,
+      "preferences": ["V"],
+      "image": "/vp2.jpg"
+    },
+    {
+      "name": "Chole Bhature",
+      "description": "Spicy chickpea curry served with fluffy bhature, a filling meal for students!",
+      "cost": 100,
+      "preferences": ["V"],
+      "image": "/egg.jpg"
+    },
+    {
+      "name": "Dal Tadka with Jeera Rice",
+      "description": "Yellow lentils tempered with garlic and cumin, served with jeera rice for a light meal.",
+      "cost": 85,
+      "preferences": ["J"],
+      "image": "/thali.jpg"
+    },
+    {
+      "name": "Pav Bhaji",
+      "description": "Mumbai-style mashed veggie curry served with buttery pav buns, a quick and tasty option.",
+      "cost": 90,
+      "preferences": ["V"],
+      "image": "/vp.jpg"
+    },
+    {
+      "name": "Maggie Noodles",
+      "description": "Quick and delicious instant noodles, a favorite among students!",
+      "cost": 50,
+      "preferences": ["V"],
+      "image": "/steak.jpg"
+    },
+    {
+      "name": "Grilled Cheese Sandwich",
+      "description": "Crispy bread filled with melted cheese, perfect for a quick bite.",
+      "cost": 60,
+      "preferences": ["V"],
+      "image": "/sandwich.jpg"
+    }
+  ]
+}
