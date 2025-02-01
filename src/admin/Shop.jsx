@@ -110,7 +110,7 @@ const Shop = () => {
           transition={{ duration: 0.75, ease: "easeOut" }}
         >
           <h1
-            className="text-6xl font-bold text-cyan-600"
+            className="text-6xl font-bold text-black-600"
             style={{
               fontFamily: "'Dancing Script', cursive", // Add your preferred font
             }}
