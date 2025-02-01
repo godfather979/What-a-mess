@@ -14,6 +14,7 @@ import Shop from "./user/Shop";
 import { NavAdm } from "./admin/AdminTrack";
 import { NavInv } from "./admin/Inventory";
 import { NavStat } from "./admin/Stats";
+import Home from "./home";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ const RoutesWeb = () => {
     <>
       {/* {loading && <Loader />} */}
       <Routes>
+        <Route path="/" element={<Home />} />
         {/* User Routes Here */}
         <Route path="/user/menu" element={<MenuPage />} />
         <Route path="/user/caru" element={<Carousel />} />
