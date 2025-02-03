@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: bm;
+  src: url('/public/BlackMango-Black.otf') format('opentype');
+}  
+
+h1 {
+  font-family: bm;
+  top: 2px;
+}
+
+body {
+    background-color: #cbe2ec;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  height: 100vh;
+  position: relative;
+}  
+
+/* Landing Container */
+.landing-container {
+  background: url(/src/images/Home.png);
+  background-size: 120% 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.what-a-mess-container {
+  margin-bottom: 2px;
+  margin-top: -5rem;
+}
+
+.what-a-mess {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-top: -15rem;
+  color: rgb(33, 131, 216);
+}
+
+.reduce-the-mess-container {
+  margin-top: -2rem;
+}
+
+.reduce-the-mess {
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(33, 161, 216);
+  margin-top: -4rem;
+}
+.specials {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 30px; /* Added top padding */
+    margin-bottom: 5px;
+    margin-left: 30px;
+    text-align: center;
+   
+  }
+
+/* Cards Section */
+.cards-section {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: #cbe2ec;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: #cbe2ec;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-label {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.card-label.blue {
+  background-color: #1e90ff;
+}
+
+.card-label.green {
+  background-color: #32cd32;
+}
+
+.card-label.red {
+  background-color: #ff6347;
+}
+
+/* Carousel Container */
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 400px;
+}
+
+.carousel-item {
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-label {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+/* Wave Animation */
+.canteen-container {
+  /* Your existing styles */
+  height: 100vh; /* Ensure this takes full height */
+}

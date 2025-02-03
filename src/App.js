@@ -15,6 +15,7 @@ import { NavAdm } from "./admin/AdminTrack";
 import { NavInv } from "./admin/Inventory";
 import { NavStat } from "./admin/Stats";
 import Home from "./home";
+import Landing from "./user/Landing";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ const RoutesWeb = () => {
         <Route path="/user/wallet" element={<WalletPage />} />
         <Route path="/user/cart" element={<ShoppingCartPage />} />
         <Route path="/user/shop" element={<Shop />} />
+        <Route path="/user/landing" element={<Landing />} />
 
         {/* Admin Routes Here */}
         <Route path="/admin/stats" element={<NavStat />} />
