@@ -34,6 +34,7 @@ const RoutesWeb = () => {
     <>
       {/* {loading && <Loader />} */}
       <Routes>
+        <Route path="/" element={<Landing />} />
         <Route path="/frontend" element={<Home />} />
         {/* User Routes Here */}
         <Route path="/user/menu" element={<MenuPage />} />
