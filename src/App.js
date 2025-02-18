@@ -42,7 +42,7 @@ const RoutesWeb = () => {
         <Route path="/user/cart" element={<ShoppingCartPage />} />
         <Route path="/user/shop" element={<Shop />} />
         <Route path="/user/landing" element={<Landing />} />
-
+        
         {/* Admin Routes Here */}
         <Route path="/admin/stats" element={<NavStat />} />
         <Route path="/admin/track" element={<NavAdm />} />
