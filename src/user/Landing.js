@@ -42,7 +42,7 @@ function Landing() {
   const areas = [
     { name: 'inventory', x1: 1300, x2: 1500, y1: 400, y2: 600, route: '/admin/inventory' },
     { name: 'track orders', x1: 1000, x2: 1200, y1: 300, y2: 500, route: '/admin/track' },
-    { name: 'checkout menu', x1: 700, x2: 900, y1: 200, y2: 400, route: '/user/shop' }
+    { name: 'checkout menu', x1: 600, x2: 800, y1: 300, y2: 500, route: '/user/shop' }
   ];
   const handleImageClick = (event) => {
     const rect = imageRef.current.getBoundingClientRect();
