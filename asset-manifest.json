@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.ffa95fd1.css",
-    "main.js": "/frontend/static/js/main.3475b50e.js",
-    "static/js/453.563ea4ce.chunk.js": "/frontend/static/js/453.563ea4ce.chunk.js",
-    "static/media/cafe.jpg": "/frontend/static/media/cafe.acbb2b58c6d3b2269402.jpg",
-    "static/media/order.jpg": "/frontend/static/media/order.d8d3bdf74efde05983d8.jpg",
-    "static/media/Home.png": "/frontend/static/media/Home.f1cbadc7d4d396189e6d.png",
-    "static/media/can.jpg": "/frontend/static/media/can.afc47580f6beef7c7432.jpg",
-    "static/media/admin.jpg": "/frontend/static/media/admin.69770d3defd3e191069d.jpg",
-    "static/media/sandwich.jpg": "/frontend/static/media/sandwich.18f83dabadb3633115d6.jpg",
-    "static/media/Sacramento-Regular.ttf": "/frontend/static/media/Sacramento-Regular.5bd7d5208f7a9c18fe22.ttf",
-    "static/media/BlackMango-Black.otf": "/frontend/static/media/BlackMango-Black.1bb86ca88545075acc89.otf",
-    "static/media/slick.svg": "/frontend/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/frontend/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/frontend/index.html",
-    "main.ffa95fd1.css.map": "/frontend/static/css/main.ffa95fd1.css.map",
-    "main.3475b50e.js.map": "/frontend/static/js/main.3475b50e.js.map",
-    "453.563ea4ce.chunk.js.map": "/frontend/static/js/453.563ea4ce.chunk.js.map"
+    "main.css": "/What-a-mess/static/css/main.7d25066c.css",
+    "main.js": "/What-a-mess/static/js/main.59f360f1.js",
+    "static/js/453.563ea4ce.chunk.js": "/What-a-mess/static/js/453.563ea4ce.chunk.js",
+    "static/media/cafe.jpg": "/What-a-mess/static/media/cafe.acbb2b58c6d3b2269402.jpg",
+    "static/media/order.jpg": "/What-a-mess/static/media/order.d8d3bdf74efde05983d8.jpg",
+    "static/media/Home.png": "/What-a-mess/static/media/Home.f1cbadc7d4d396189e6d.png",
+    "static/media/can.jpg": "/What-a-mess/static/media/can.afc47580f6beef7c7432.jpg",
+    "static/media/admin.jpg": "/What-a-mess/static/media/admin.69770d3defd3e191069d.jpg",
+    "static/media/sandwich.jpg": "/What-a-mess/static/media/sandwich.18f83dabadb3633115d6.jpg",
+    "static/media/Sacramento-Regular.ttf": "/What-a-mess/static/media/Sacramento-Regular.5bd7d5208f7a9c18fe22.ttf",
+    "static/media/BlackMango-Black.otf": "/What-a-mess/static/media/BlackMango-Black.1bb86ca88545075acc89.otf",
+    "static/media/slick.svg": "/What-a-mess/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/What-a-mess/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/What-a-mess/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/What-a-mess/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/What-a-mess/index.html",
+    "main.7d25066c.css.map": "/What-a-mess/static/css/main.7d25066c.css.map",
+    "main.59f360f1.js.map": "/What-a-mess/static/js/main.59f360f1.js.map",
+    "453.563ea4ce.chunk.js.map": "/What-a-mess/static/js/453.563ea4ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffa95fd1.css",
-    "static/js/main.3475b50e.js"
+    "static/css/main.7d25066c.css",
+    "static/js/main.59f360f1.js"
   ]
 }
