@@ -35,7 +35,7 @@ const RoutesWeb = () => {
       {/* {loading && <Loader />} */}
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/frontend" element={<Landing />} />
+        <Route path="/What-a-mess" element={<Landing />} />
         {/* User Routes Here */}
         <Route path="/user/menu" element={<MenuPage />} />
         <Route path="/user/caru" element={<Carousel />} />
@@ -43,7 +43,7 @@ const RoutesWeb = () => {
         <Route path="/user/cart" element={<ShoppingCartPage />} />
         <Route path="/user/shop" element={<Shop />} />
         <Route path="/user/landing" element={<Landing />} />
-        
+
         {/* Admin Routes Here */}
         <Route path="/admin/stats" element={<NavStat />} />
         <Route path="/admin/track" element={<NavAdm />} />
