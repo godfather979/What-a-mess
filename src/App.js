@@ -16,6 +16,7 @@ import { NavInv } from "./admin/Inventory";
 import { NavStat } from "./admin/Stats";
 import Home from "./home";
 import Landing from "./user/Landing";
+import City from "./City";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ const RoutesWeb = () => {
         <Route path="/admin/stats" element={<NavStat />} />
         <Route path="/admin/track" element={<NavAdm />} />
         <Route path="/admin/inventory" element={<NavInv />} />
+        <Route path="user/city" element={<City />} />
       </Routes>
       {/* {!isAdminRoute && <Footer />}       Conditionally render Footer */}
     </>
