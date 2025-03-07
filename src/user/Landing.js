@@ -1,17 +1,17 @@
-import React, { useRef, useState } from 'react';
-import './Landing.css'; // Ensure your CSS is included
-import { motion } from 'framer-motion';
-import Carousel from './Carousel';
-import Chart from './Chart';
-import Weekly from './Weekly';
-import { useNavigate } from 'react-router-dom';
+import React, { useRef, useState } from "react";
+import "./Landing.css"; // Ensure your CSS is included
+import { motion } from "framer-motion";
+import Carousel from "./Carousel";
+import Chart from "./Chart";
+import Weekly from "./Weekly";
+import { useNavigate } from "react-router-dom";
 // import Interaction from './Interaction';
 
 function Landing() {
   const navigate = useNavigate();
   const imageRef = useRef(null);
   const [isHovered, setIsHovered] = useState(false);
-  const [hoverText, setHoverText] = useState('');
+  const [hoverText, setHoverText] = useState("");
   const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
 
   // const handleImageClick = (event) => {
@@ -23,7 +23,7 @@ function Landing() {
   //     {
   //       name: ' check inventory',
   //       coordinates: {
-  //         x1: 1300, x2: 1500, 
+  //         x1: 1300, x2: 1500,
   //         y1: 400, y2: 600
   //       },
   //       route: '/admin/inventory'
@@ -40,9 +40,30 @@ function Landing() {
   //   }
   // };
   const areas = [
-    { name: 'inventory', x1: 1300, x2: 1500, y1: 400, y2: 600, route: '/admin/inventory' },
-    { name: 'track orders', x1: 1000, x2: 1200, y1: 300, y2: 500, route: '/admin/track' },
-    { name: 'checkout menu', x1: 600, x2: 800, y1: 300, y2: 500, route: '/user/shop' }
+    {
+      name: "Inventory",
+      x1: 1300,
+      x2: 1500,
+      y1: 400,
+      y2: 600,
+      route: "/admin/inventory",
+    },
+    {
+      name: "Track orders",
+      x1: 1000,
+      x2: 1300,
+      y1: 250,
+      y2: 400,
+      route: "/admin/track",
+    },
+    {
+      name: "Checkout menu",
+      x1: 600,
+      x2: 900,
+      y1: 250,
+      y2: 400,
+      route: "/user/shop",
+    },
   ];
   const handleImageClick = (event) => {
     const rect = imageRef.current.getBoundingClientRect();
@@ -57,8 +78,8 @@ function Landing() {
     //   { name: 'check menu', x1: 700, x2: 900, y1: 200, y2: 400, route: '/user/shop' }
     // ];
 
-    const clickedArea = areas.find(area =>
-      x >= area.x1 && x <= area.x2 && y >= area.y1 && y <= area.y2
+    const clickedArea = areas.find(
+      (area) => x >= area.x1 && x <= area.x2 && y >= area.y1 && y <= area.y2
     );
 
     if (clickedArea) {
@@ -67,8 +88,7 @@ function Landing() {
     } else {
       console.log("Clicked outside defined areas.");
     }
-};
-
+  };
 
   // const handleMouseEnter = (event) => {
   //   const rect = imageRef.current.getBoundingClientRect();
@@ -77,7 +97,7 @@ function Landing() {
 
   //   // Check if the mouse is inside the defined coordinates
   //   if (
-  //     x >= 1300 && x <= 1500 && 
+  //     x >= 1300 && x <= 1500 &&
   //     y >= 400 && y <= 600
   //   ) {
   //     setIsHovered(true);
@@ -89,8 +109,8 @@ function Landing() {
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
 
-    const hoveredArea = areas.find(area =>
-      x >= area.x1 && x <= area.x2 && y >= area.y1 && y <= area.y2
+    const hoveredArea = areas.find(
+      (area) => x >= area.x1 && x <= area.x2 && y >= area.y1 && y <= area.y2
     );
 
     if (hoveredArea) {
@@ -108,11 +128,11 @@ function Landing() {
 
   return (
     <div className="App">
-      <div 
-        className="landing-container" 
+      <div
+        className="landing-container"
         ref={imageRef}
         onClick={handleImageClick}
-        style={{ cursor: 'pointer' }}
+        style={{ cursor: "pointer" }}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
@@ -133,40 +153,52 @@ function Landing() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <em>Reduce the mess <br /> With Us</em>
+            <em>
+              Reduce the mess <br /> With Us
+            </em>
           </motion.p>
         </div>
 
         {/* Hover effect area */}
         {isHovered && (
-          <div 
+          <div
             style={{
-              position: 'absolute',
+              position: "absolute",
               top: hoverPosition.y,
               left: hoverPosition.x,
-              transform: 'translate(-50%, -50%)',
-              color: 'blue',
-              fontSize: '18px',
-              fontWeight: 'bold',
+              transform: "translate(-50%, -50%)",
               zIndex: 1,
+              backgroundColor: "white",
+              padding: "8px",
+              borderRadius: "12px",
+              border: "4px solid rgb(33, 131, 216)",
+              boxShadow: "0 2px 8px rgba(0, 0, 0, 0.2)",
             }}
           >
-            {hoverText}
+            <span
+              style={{
+                color: "rgb(33, 131, 216)",
+                fontSize: "18px",
+                fontWeight: "bold",
+              }}
+            >
+              {hoverText}
+            </span>
           </div>
         )}
       </div>
 
       {/* Cards Section */}
-      <motion.h1 
+      <motion.h1
         className="specials"
-        animate={{ 
+        animate={{
           textShadow: [
-            "0px 0px 10px rgba(236, 245, 247, 0.8)",  
-            "0px 0px 20px rgb(0, 89, 255)",  
-            "0px 0px 30px rgb(0, 255, 208)",  
-            "0px 0px 20px rgb(0, 242, 255)",  
-            "0px 0px 10px rgba(255, 255, 255, 0.8)"
-          ]
+            "0px 0px 10px rgba(236, 245, 247, 0.8)",
+            "0px 0px 20px rgb(0, 89, 255)",
+            "0px 0px 30px rgb(0, 255, 208)",
+            "0px 0px 20px rgb(0, 242, 255)",
+            "0px 0px 10px rgba(255, 255, 255, 0.8)",
+          ],
         }}
         transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
       >
@@ -174,15 +206,15 @@ function Landing() {
       </motion.h1>
 
       <div className="carousel-container">
-        <Carousel/>
+        <Carousel />
       </div>
 
       <div>
-        <Chart/>
+        <Chart />
       </div>
 
       <div>
-        <Weekly/>
+        <Weekly />
       </div>
       {/* <div>
         <Interaction />
